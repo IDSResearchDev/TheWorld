@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">14.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\DNX\Microsoft.DNX.Props" Condition="'$(VSToolsPath)' != ''" />
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>80061f31-4538-4438-b788-2b4b95d82893</ProjectGuid>
+    <RootNamespace>TheWolrd</RootNamespace>
+    <BaseIntermediateOutputPath Condition="'$(BaseIntermediateOutputPath)'=='' ">..\artifacts\obj\$(MSBuildProjectName)</BaseIntermediateOutputPath>
+    <OutputPath Condition="'$(OutputPath)'=='' ">..\artifacts\bin\$(MSBuildProjectName)\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SchemaVersion>2.0</SchemaVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <DnxInvisibleContent Include="bower.json" />
+    <DnxInvisibleContent Include=".bowerrc" />
+    <DnxInvisibleContent Include="package.json" />
+    <DnxInvisibleContent Include="Views\Shared\0ktq5dzu.tmo~" />
+    <DnxInvisibleContent Include="Views\Shared\1va2nkgr.nyl~" />
+    <DnxInvisibleContent Include="Views\Shared\2frikgwt.br1~" />
+    <DnxInvisibleContent Include="Views\Shared\ai2gbzlf.d3e~" />
+    <DnxInvisibleContent Include="Views\Shared\aryby5cz.n5r~" />
+    <DnxInvisibleContent Include="Views\Shared\auogk4wb.ggq~" />
+    <DnxInvisibleContent Include="Views\Shared\axkreeaq.l5t~" />
+    <DnxInvisibleContent Include="Views\Shared\bigdxwd4.ftf~" />
+    <DnxInvisibleContent Include="Views\Shared\cqwq4vjp.1rw~" />
+    <DnxInvisibleContent Include="Views\Shared\durbyxx0.d0f~" />
+    <DnxInvisibleContent Include="Views\Shared\enolb54y.c5n~" />
+    <DnxInvisibleContent Include="Views\Shared\feyusonw.v5e~" />
+    <DnxInvisibleContent Include="Views\Shared\gci1rgvz.mgo~" />
+    <DnxInvisibleContent Include="Views\Shared\if3k2mwq.xcy~" />
+    <DnxInvisibleContent Include="Views\Shared\lymcuud2.d5w~" />
+    <DnxInvisibleContent Include="Views\Shared\nbvomssb.2b3~" />
+    <DnxInvisibleContent Include="Views\Shared\nmjpfwsy.np1~" />
+    <DnxInvisibleContent Include="Views\Shared\nnsxh45x.15o~" />
+    <DnxInvisibleContent Include="Views\Shared\ocj5qayc.dmq~" />
+    <DnxInvisibleContent Include="Views\Shared\p2b0icmo.1dt~" />
+    <DnxInvisibleContent Include="Views\Shared\r4wog2yq.dfn~" />
+    <DnxInvisibleContent Include="Views\Shared\rp0uqmxh.exz~" />
+    <DnxInvisibleContent Include="Views\Shared\vfipx5kh.gd3~" />
+    <DnxInvisibleContent Include="Views\Shared\xlpvmbbv.1ic~" />
+    <DnxInvisibleContent Include="Views\Shared\xqc54wj1.5uj~" />
+  </ItemGroup>
+  <Import Project="$(VSToolsPath)\DNX\Microsoft.DNX.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>
